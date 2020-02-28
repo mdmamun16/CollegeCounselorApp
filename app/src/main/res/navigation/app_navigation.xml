@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/titleFragment">
+
+    <fragment
+        android:id="@+id/titleFragment"
+        android:name="com.example.collegecounselor.TitleFragment"
+        android:label="fragment_title"
+        tools:layout="@layout/fragment_title" >
+        <action
+            android:id="@+id/action_titleFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.collegecounselor.loginFragment"
+        android:label="loginFragment" >
+        <action
+            android:id="@+id/action_loginFragment_to_unlockFragment"
+            app:destination="@id/unlockFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_settingFragment"
+            app:destination="@id/settingFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_logFirstFragment"
+            app:destination="@id/logFirstFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_leaderboardFragment"
+            app:destination="@id/leaderboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/rulesFragment"
+        android:name="com.example.collegecounselor.RulesFragment"
+        android:label="RulesFragment" >
+        <action
+            android:id="@+id/action_rulesFragment_to_quizFragment"
+            app:destination="@id/quizFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="com.example.collegecounselor.QuizFragment"
+        android:label="QuizFragment" >
+        <action
+            android:id="@+id/action_quizFragment_to_lossFragment"
+            app:destination="@id/lossFragment" />
+        <action
+            android:id="@+id/action_quizFragment_to_unlockFragment"
+            app:destination="@id/unlockFragment" />
+        <argument
+            android:name="unlocscore"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_quizFragment_to_leaderboardFragment"
+            app:destination="@id/leaderboardFragment" />
+        <action
+            android:id="@+id/action_quizFragment_to_wonFragment"
+            app:destination="@id/wonFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/unlockFragment"
+        android:name="com.example.collegecounselor.UnlockFragment"
+        android:label="UnlockFragment" >
+        <action
+            android:id="@+id/action_unlockFragment_to_rulesFragment"
+            app:destination="@id/rulesFragment" />
+        <argument
+            android:name="Score"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_unlockFragment_to_quizFragment"
+            app:destination="@id/quizFragment" />
+        <action
+            android:id="@+id/action_unlockFragment_to_leaderboardFragment"
+            app:destination="@id/leaderboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.example.collegecounselor.SettingFragment"
+        android:label="SettingFragment" />
+    <fragment
+        android:id="@+id/lossFragment"
+        android:name="com.example.collegecounselor.LossFragment"
+        android:label="LossFragment" >
+        <action
+            android:id="@+id/action_lossFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/logFirstFragment"
+        android:name="com.example.collegecounselor.logFirstFragment"
+        android:label="logFirstFragment" >
+        <action
+            android:id="@+id/action_logFirstFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/leaderboardFragment"
+        android:name="com.example.collegecounselor.LeaderboardFragment"
+        android:label="LeaderboardFragment" />
+    <fragment
+        android:id="@+id/wonFragment"
+        android:name="com.example.collegecounselor.WonFragment"
+        android:label="WonFragment" >
+        <action
+            android:id="@+id/action_wonFragment_self"
+            app:destination="@id/wonFragment" />
+        <action
+            android:id="@+id/action_wonFragment_to_unlockFragment"
+            app:destination="@id/unlockFragment" />
+    </fragment>
+</navigation>

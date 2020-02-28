@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "631816697459",
+    "firebase_url": "https://collegecounselor2-a1edb.firebaseio.com",
+    "project_id": "collegecounselor2-a1edb",
+    "storage_bucket": "collegecounselor2-a1edb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631816697459:android:508927d20512b804a69c06",
+        "android_client_info": {
+          "package_name": "com.example.collegecounselor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "631816697459-dbc6e4vebgchqfan4hqq6jc9dglm1pkj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.collegecounselor",
+            "certificate_hash": "caf99f4f9296f57a4cc892bfe25ab2ce5edb23a6"
+          }
+        },
+        {
+          "client_id": "631816697459-kdcoc290r5aptf87l67e9p8r13s3nfne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0HKFhrMPp8CONszP1wksSiun9tUcu6Ps"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "631816697459-kdcoc290r5aptf87l67e9p8r13s3nfne.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
