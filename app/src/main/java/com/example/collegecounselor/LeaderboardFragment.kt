@@ -29,7 +29,7 @@ class LeaderboardFragment : Fragment() {
         binding.leader=this
         return binding.root
     }
-
+//test
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         var score = sharedPreferences.getString("TEXT_SCORE", "")
