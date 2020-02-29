@@ -23,7 +23,7 @@
             android:layout_gravity="center"
             android:background="@drawable/facebookb"
             android:text="Play Again"
-            android:textSize="25sp" />
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/Logout_but"
