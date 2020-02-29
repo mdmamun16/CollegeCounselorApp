@@ -7,8 +7,6 @@
         <variable
             name="quiz"
             type="com.example.collegecounselor.QuizFragment" />
-
-
     </data>
 
     <LinearLayout
