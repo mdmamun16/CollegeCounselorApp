@@ -39,8 +39,11 @@
                         android:layout_gravity="center_horizontal"
                         android:layout_marginTop="80dp"
                         android:layout_marginBottom="10dp"
-                        android:background="@drawable/btnyellow"
-                        android:text="Level" />
+                        android:background="@drawable/bg_level"
+                        android:text="Level"
+                        android:textAllCaps="false"
+                        android:textSize="24sp"
+                        android:textColor="#ffff"/>
 
                 </LinearLayout>
 
@@ -130,7 +133,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_margin="25dp"
-                        android:background="@drawable/qectangle"
+
                         android:src="@drawable/qectangle"
                         android:text="@{quiz.CurrentQuestion.theQuestion}"
                         android:textSize="20dp"
@@ -153,23 +156,25 @@
                             android:layout_width="160dp"
                             android:layout_height="50dp"
                             android:layout_marginLeft="15dp"
-                            android:background="@drawable/btnyellow"
+                            android:background="@drawable/bg_home_btn"
                             android:inputType="textMultiLine|textImeMultiLine"
                             android:singleLine="false"
                             android:text="@{quiz.Answers[0]}"
                             android:textSize="18dp"
-                            tools:text="26 March" />
+                            tools:text="26 March"
+                            android:textColor="#ffff"/>
 
                         <Button
                             android:id="@+id/Button_2"
                             android:layout_width="160dp"
                             android:layout_height="50dp"
                             android:layout_marginLeft="45dp"
-                            android:background="@drawable/btnyellow"
+                            android:background="@drawable/bg_home_btn"
                             android:inputType="textMultiLine|textImeMultiLine"
                             android:text="@{quiz.Answers[1]}"
                             android:textSize="18dp"
-                            tools:text="21 Feb" />
+                            tools:text="21 Feb"
+                            android:textColor="#ffff"/>
 
 
                     </LinearLayout>
@@ -186,21 +191,25 @@
                             android:layout_width="160dp"
                             android:layout_height="50dp"
                             android:layout_marginLeft="15dp"
-                            android:background="@drawable/btnyellow"
+
                             android:inputType="textMultiLine|textImeMultiLine"
                             android:text="@{quiz.Answers[2]}"
                             android:textSize="18dp"
-                            tools:text="14th April" />
+                            android:background="@drawable/bg_home_btn"
+                            tools:text="14th April"
+                            android:textColor="#ffff"/>
 
                         <Button
                             android:id="@+id/Button_4"
                             android:layout_width="160dp"
                             android:layout_height="50dp"
                             android:layout_marginLeft="45dp"
-                            android:background="@drawable/btnyellow"
+
                             android:inputType="textMultiLine|textImeMultiLine"
                             android:text="@{quiz.Answers[3]}"
                             android:textSize="18sp"
+                            android:background="@drawable/bg_home_btn"
+                            android:textColor="#ffff"
                             tools:text="16 December" />
 
                     </LinearLayout>

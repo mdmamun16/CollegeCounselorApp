@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:tools="http://schemas.android.com/tools">
 
     <LinearLayout
+        android:background="@drawable/bg_home"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -18,7 +20,7 @@
                     android:layout_gravity="center"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/logo"
+                    android:src="@drawable/logo1"
                     />
 
                 <LinearLayout
@@ -31,7 +33,7 @@
                         android:id="@+id/playButton"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/btnyellow"
+                        android:background="@drawable/btn_play"
                         android:text="Play"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginBottom="10dp"/>
@@ -40,7 +42,7 @@
                         android:id="@+id/leaderbord_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/btnyellow"
+                        android:background="@drawable/btn_leaderboard"
                         android:text="Leaderbord"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginBottom="10dp"/>
@@ -49,29 +51,21 @@
                         android:id="@+id/settingBut"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/btnyellow"
+                        android:background="@drawable/btn_settings"
                         android:text="Setting"
                         android:layout_gravity="center_horizontal"
                         android:layout_marginBottom="10dp"/>
 
 
                 </LinearLayout>
-f
+
                 <LinearLayout
-                    android:layout_marginTop="150sp"
+                    android:layout_marginTop="50dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
 
-                    <Button
-                        android:id="@+id/logout_login"
-                        android:layout_gravity="center"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/googleb"
-                        android:text="Logout"
-                        />
 
                 </LinearLayout>
 
