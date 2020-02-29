@@ -37,7 +37,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:layout_marginTop="80dp"
+                        android:layout_marginTop="30dp"
                         android:layout_marginBottom="10dp"
                         android:background="@drawable/bg_level"
                         android:text="Level"
@@ -115,7 +115,11 @@
                 </LinearLayout>
 
             </LinearLayout>
-
+<ImageView
+    android:layout_width="280dp"
+    android:layout_height="150dp"
+    android:src="@drawable/soil"
+    android:layout_gravity="center"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
